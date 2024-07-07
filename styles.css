@@ -1,1 +1,46 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('/IRANSansWeb_Medium.woff2') format('woff2'),
+    url('/IRANSansWeb_Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    font-family:'IranSans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2E3A49;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.link {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.link:hover {
+    background-color: #0056b3;
+}
+.soheil1{
+    color:white;
+    font-size:25px;
+}
+.soheil2{
+    color:white;
+    font-size:45px;
+}
